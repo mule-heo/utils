@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "Utility tools",
+  "main": "index.js",
+  "private": true,
+  "bin": {
+    "image-converter": "./src/convert-image-format.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-image": "node src/convert-image-format.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mule-heo/utils.git"
+  },
+  "keywords": [],
+  "author": "mule-heo <devheojinwoo@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/mule-heo/utils/issues"
+  },
+  "homepage": "https://github.com/mule-heo/utils#readme",
+  "dependencies": {
+    "sharp": "^0.32.6"
+  }
+}
